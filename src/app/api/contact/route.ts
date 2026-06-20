@@ -49,11 +49,9 @@ export async function POST(request: Request) {
     if (notifySecret) {
       void fetch(`${supabaseUrl}/functions/v1/lurra-contact-notify`, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-lurra-contact-secret": notifySecret,
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          webhook_secret: notifySecret,
           contact_id: inserted?.id,
           name,
           email,
