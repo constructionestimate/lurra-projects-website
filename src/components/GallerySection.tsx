@@ -25,10 +25,10 @@ export function GallerySection() {
       >
         <p className="lurra-label">Signature Landscapes</p>
         <h2 className="lurra-display mt-4 text-4xl font-medium text-lurra-cream md:text-5xl">
-          Gardens shaped for Melbourne living.
+          Signature landscapes across Melbourne&apos;s finest suburbs.
         </h2>
         <p className="mt-4 max-w-2xl text-lurra-muted">
-          Placeholder imagery — replace with your project photography when ready. Each card is structured for a future lightbox.
+          Courtyards, coastal gardens, and architect-led outdoor rooms — crafted for how Melbourne families live, entertain, and unwind.
         </p>
       </motion.div>
 
@@ -39,6 +39,7 @@ export function GallerySection() {
             initial={{ opacity: 0, y: 24 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.06 * i }}
+            aria-label={`${project.name} landscape project in ${project.location}, Melbourne`}
             className={`group relative aspect-[4/5] overflow-hidden rounded-2xl bg-gradient-to-br ${project.gradient}`}
           >
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,rgba(179,139,94,0.18),transparent_55%)]" />

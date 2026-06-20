@@ -29,8 +29,7 @@ export function WhySection() {
             Because the experience of building your garden should feel as refined as the result.
           </h2>
           <p className="mt-6 text-lg leading-8 text-lurra-muted">
-            Paid traffic brings visitors. Trust converts them. Lurra Projects is positioned for clients who expect
-            responsiveness, craftsmanship, and a finish they are proud to show — not explain away.
+            Homeowners choose Lurra when they expect personal attention, meticulous finishes, and a garden they are proud to show neighbours, architects, and family — for decades, not just the reveal day.
           </p>
         </motion.div>
 

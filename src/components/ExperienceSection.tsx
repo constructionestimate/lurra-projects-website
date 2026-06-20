@@ -41,7 +41,7 @@ export function ExperienceSection() {
       >
         <p className="lurra-label">The Lurra Experience</p>
         <h2 className="lurra-display mt-4 text-4xl font-medium text-lurra-cream md:text-5xl">
-          Premium landscaping begins with how you feel throughout the journey.
+          Premium landscaping in Melbourne begins with how you feel throughout the journey.
         </h2>
         <p className="mt-6 text-lg leading-8 text-lurra-muted">
           Lurra Projects is for homeowners who refuse to compromise — on communication, on craftsmanship, or on the quiet

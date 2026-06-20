@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main aria-label="Lurra Projects premium landscaping Melbourne">
         <ScrollHero />
         <ExperienceSection />
         <ProcessSection />

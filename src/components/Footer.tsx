@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="border-t border-white/6 px-6 py-10 text-center text-xs text-lurra-muted md:px-10">
       <p className="lurra-display text-lg text-lurra-cream">Lurra Projects</p>
-      <p className="mt-2">Premium landscape design & construction · Melbourne</p>
+      <p className="mt-2">Premium landscape design & construction · Mentone & Bayside Melbourne</p>
       <p className="mt-4">
         <a href="tel:0400810107" className="hover:text-lurra-gold">0400 810 107</a>
         {" · "}

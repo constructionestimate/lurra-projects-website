@@ -198,7 +198,7 @@ export function ScrollHero() {
               custom={2}
               variants={overlayVariants}
             >
-              Creating extraordinary outdoor sanctuaries where architecture and nature meet.
+              Bespoke landscape design and garden construction for discerning Melbourne homes — where architecture, planting, and craftsmanship meet in quiet perfection.
             </motion.p>
             <motion.div
               className="pointer-events-auto mt-10 flex flex-wrap gap-4"
