@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  --lurra-charcoal: #0f1110;
+  --lurra-cream: #f5f2ea;
+  --lurra-sage: #4a5d4e;
+  --lurra-gold: #b38b5e;
+  --lurra-muted: #c8c4b8;
+  --lurra-off-black: #141716;
+}
+
+@theme inline {
+  --color-lurra-charcoal: var(--lurra-charcoal);
+  --color-lurra-cream: var(--lurra-cream);
+  --color-lurra-sage: var(--lurra-sage);
+  --color-lurra-gold: var(--lurra-gold);
+  --color-lurra-muted: var(--lurra-muted);
+  --color-lurra-off-black: var(--lurra-off-black);
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--lurra-charcoal);
+  color: var(--lurra-cream);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--lurra-sage) 55%, transparent);
+  color: var(--lurra-cream);
+}
+
+.lurra-section {
+  @apply mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32;
+}
+
+.lurra-label {
+  @apply font-sans text-[11px] font-medium uppercase tracking-[0.28em] text-lurra-gold;
+}
+
+.lurra-display {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+.lurra-card {
+  @apply rounded-2xl border border-white/8 bg-white/[0.03] backdrop-blur-sm;
+}
+
+.lurra-btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-lurra-gold px-8 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] text-lurra-charcoal transition hover:bg-[#c49a6e];
+}
+
+.lurra-btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-lurra-sage/50 px-8 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] text-lurra-cream transition hover:border-lurra-gold hover:text-lurra-gold;
+}
